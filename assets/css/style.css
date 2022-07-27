@@ -306,3 +306,9 @@ section {
 }
 
 /* reach out styles end */
+
+/* secondary page hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}

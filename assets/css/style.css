@@ -169,16 +169,13 @@ section {
 
 /* What we do section */
 
-.intro {
-  text-align: center;
-}
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* end what we do section */
@@ -186,17 +183,17 @@ section {
 /* what you do section */
 
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -207,28 +204,53 @@ section {
   border-color: #39a6b2;
 }
 
-.steps div {
-  margin-bottom: 80px;
-}
-
-.steps img {
-  width: 15%;
-  margin: 10px 0;
-}
-
-.steps h3 {
+.step h3 {
   color: #024e76;
   font-size: 46px;
   margin-top: 10px;
+  flex: 1 30%;
 }
 
-.steps p {
+.steps-text p {
   color: #39a6b2;
-  font-size: 23px;
+  font-size: 18px;
 }
 
-.steps span {
-  font-size: 38px;
+.step-text h4 {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #024e76;
+}
+
+.step {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid #39a6b2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 2 70%;
+}
+
+.step-img {
+  flex: 1 12%;
+  margin-right: 20px;
+}
+
+.step-img img {
+  max-width: 100%;
+}
+
+.step-text {
+  flex: 12;
 }
 
 /* end what you do section */
@@ -236,7 +258,7 @@ section {
 /* trainers sections */
 
 .trainers {
-  text-align: center;
+  
 }
 
 .trainer {
@@ -292,7 +314,7 @@ section {
 /* reach out style */
 
 .contact {
-  text-align: center;
+  
   background: #024e76;
 }
 
@@ -331,6 +353,10 @@ section {
 }
 
 /* reach out styles end */
+
+.flex-row {
+  display: flex;
+}
 
 /* secondary page hero */
 .hero-secondary {

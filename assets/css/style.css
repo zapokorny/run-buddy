@@ -70,7 +70,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background: (var(--primary-color));
+  background: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 15px;
   text-shadow: none;
@@ -629,3 +629,5 @@ section {
     order: 3;
   }
 }
+
+/* end media queries */
